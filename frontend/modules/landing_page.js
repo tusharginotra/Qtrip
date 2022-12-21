@@ -12,7 +12,7 @@ async function init() {
 
 //Implementation of fetch call
 async function fetchCities() {
-  // TODO: MODULE_CITIES
+  // TODO: CITIES
   // 1. Fetch cities using the Backend API and return the data
   try {
     let cities = await fetch(`${config.backendEndpoint}/cities`)
@@ -29,7 +29,7 @@ async function fetchCities() {
 
 //Implementation of DOM manipulation to add cities
 function addCityToDOM(id, city, description, image) {
-  // TODO: MODULE_CITIES
+  // TODO: CITIES
   // 1. Populate the City details and insert those details into the DOM
   let parent = document.getElementById("data")
 
