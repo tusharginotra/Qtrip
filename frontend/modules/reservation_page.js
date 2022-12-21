@@ -2,7 +2,7 @@ import config from "../conf/index.js";
 
 //Implementation of fetch call to fetch all reservations
 async function fetchReservations() {
-  // TODO: MODULE_RESERVATIONS
+  // TODO: RESERVATIONS
   // 1. Fetch Reservations by invoking the REST API and return them
   try {
     let res = await fetch(`${config.backendEndpoint}/reservations/`);
@@ -20,7 +20,7 @@ async function fetchReservations() {
 
 //Function to add reservations to the table. Also; in case of no reservations, display the no-reservation-banner, else hide it.
 function addReservationToTable(reservations) {
-  // TODO: MODULE_RESERVATIONS
+  // TODO: RESERVATIONS
   // 1. Add the Reservations to the HTML DOM so that they show up in the table
 
   //Conditionally render the no-reservation-banner and reservation-table-parent
